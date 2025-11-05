@@ -1,0 +1,24 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		buildConfigurationList = 1DEB928908733DD80010E9CD;
+		compatibilityVersion = "Xcode 14.0";
+		developmentRegion = en;
+		hasScannedForEncodings = 1;
+		knownRegions = (
+			en,
+			Base,
+		);
+		mainGroup = 29B97314FDCFA39411CA2CEA;
+		projectDirPath = "";
+		projectRoot = "";
+		targets = (
+			D2AAC07D0554694100DB518D,
+		);
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}
