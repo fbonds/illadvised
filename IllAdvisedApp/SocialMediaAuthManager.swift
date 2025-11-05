@@ -110,7 +110,7 @@ class SocialMediaAuthManager: NSObject, ObservableObject {
     }
     
     func getStreamURL(for platform: Platform) -> String? {
-        guard let credentials = authenticatedPlatforms[platform] else { return nil }
+        guard authenticatedPlatforms[platform] != nil else { return nil }
         return platform.streamingURL
     }
     

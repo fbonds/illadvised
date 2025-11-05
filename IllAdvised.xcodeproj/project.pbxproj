@@ -312,6 +312,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ill Advised needs location access to record where your device met its fate.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ill Advised needs microphone access to capture audio of your device's destruction.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Ill Advised needs motion sensor access to track your device's trajectory and impact.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -323,6 +324,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.illadvised.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -349,6 +353,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ill Advised needs location access to record where your device met its fate.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ill Advised needs microphone access to capture audio of your device's destruction.";
 				INFOPLIST_KEY_NSMotionUsageDescription = "Ill Advised needs motion sensor access to track your device's trajectory and impact.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -360,6 +365,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.illadvised.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
