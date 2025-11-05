@@ -2,7 +2,9 @@
 
 ## Welcome! Your iOS App is Ready
 
-You now have a **complete, production-ready iOS application** for recording extreme sports with real-time sensor data overlays.
+You now have a **complete, production-ready iOS application** for documenting your iPhone's glorious demise with real-time sensor data overlays.
+
+**The Concept:** Record your phone's final moments as you destroy it (throw it off a cliff, run it over, launch it, etc.) while capturing all sensor data - GPS, altitude, speed, g-forces, and more. Stream it live to social media or save locally (if the phone survives long enough).
 
 ---
 
@@ -27,19 +29,19 @@ Everything you need to know:
 - Troubleshooting tips
 
 ### ✅ All Features Requested
-- ✅ Dual camera recording
-- ✅ GPS location tracking
-- ✅ Altitude (GPS + barometric)
-- ✅ Speed in MPH
-- ✅ Compass heading
-- ✅ Phone orientation (roll, pitch, yaw)
-- ✅ Acceleration (3-axis)
-- ✅ Rotation rate
-- ✅ Magnetic field
-- ✅ Ambient pressure
-- ✅ Step counter
-- ✅ Social media streaming framework
-- ✅ Real-time overlay display
+- ✅ Dual camera recording (capture destruction from both angles)
+- ✅ GPS location tracking (where did it meet its end?)
+- ✅ Altitude (GPS + barometric) (how far did it fall?)
+- ✅ Speed in MPH (how fast was it going?)
+- ✅ Compass heading (which direction?)
+- ✅ Phone orientation (roll, pitch, yaw) (was it tumbling?)
+- ✅ Acceleration (3-axis) (how many g-forces?)
+- ✅ Rotation rate (how fast did it spin?)
+- ✅ Magnetic field (any interesting interference?)
+- ✅ Ambient pressure (for altitude verification)
+- ✅ Step counter (if you walked it to its doom)
+- ✅ Social media streaming framework (share the destruction live!)
+- ✅ Real-time overlay display (all data visible on video)
 
 ---
 

@@ -1,7 +1,7 @@
 # Quick Start Guide - Ill Advised iOS App
 
 ## TL;DR
-This is a complete Swift iOS app for recording extreme sports with real-time sensor overlays. You need to open it in Xcode and configure social media API credentials.
+This is a complete Swift iOS app for documenting your iPhone's final moments with real-time sensor overlays. Record your phone being thrown off cliffs, run over, launched, or destroyed however you see fit - with full telemetry data captured on video. You need to open it in Xcode and configure social media API credentials to stream the destruction live.
 
 ## Setup in 5 Minutes
 
@@ -70,16 +70,16 @@ This is a complete Swift iOS app for recording extreme sports with real-time sen
 9. Video is saved to temporary directory
 
 ### Sensor Data Test
-Move your phone around and watch the overlay update:
+Move your phone around and watch the overlay update (test BEFORE destroying it!):
 - **GPS**: Walk outside to see coordinates change
-- **Altitude**: Go upstairs to see altitude increase
-- **Speed**: Walk/run to see speed in MPH
-- **Heading**: Rotate to see compass direction
-- **Orientation**: Tilt phone to see roll/pitch/yaw
-- **Acceleration**: Shake phone to see acceleration
-- **Rotation**: Spin phone to see rotation rate
+- **Altitude**: Go upstairs to see altitude increase (imagine throwing it off a building!)
+- **Speed**: Walk/run to see speed in MPH (how fast will it be falling?)
+- **Heading**: Rotate to see compass direction (which way should you throw it?)
+- **Orientation**: Tilt phone to see roll/pitch/yaw (watch it tumble!)
+- **Acceleration**: Shake phone to see acceleration (imagine the impact g-forces!)
+- **Rotation**: Spin phone to see rotation rate (how fast can it spin?)
 - **Pressure**: Changes with weather and altitude
-- **Steps**: Walk around to see step count
+- **Steps**: Walk around to see step count (walk it to its doom)
 
 ### Settings Test
 1. Tap gear icon (bottom left)

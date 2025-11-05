@@ -48,14 +48,14 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSCameraUsageDescription</key>
-	<string>This app requires camera access to record your ill-advised stunts.</string>
+	<string>Ill Advised uses your cameras to record your phone's final moments as you destroy it.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>This app requires microphone access to record audio during your stunts.</string>
+	<string>Ill Advised records audio to capture the sounds of destruction.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app requires location access to display GPS coordinates, altitude, and speed during recording.</string>
+	<string>Ill Advised tracks your phone's location, altitude, and speed as it meets its demise.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app requires location access to display GPS coordinates, altitude, and speed during recording.</string>
+	<string>Ill Advised tracks your phone's location, altitude, and speed during its final journey.</string>
 	<key>NSMotionUsageDescription</key>
-	<string>This app requires motion sensor access to display orientation, acceleration, rotation, and pressure data.</string>
+	<string>Ill Advised records motion data (orientation, g-forces, rotation) during destruction.</string>
 </dict>
 </plist>

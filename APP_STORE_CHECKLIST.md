@@ -110,23 +110,37 @@ Create compelling 4000-character description covering:
 - [ ] Key features with bullet points
 - [ ] Supported platforms for streaming
 - [ ] Sensor data tracked
-- [ ] Safety warnings
+- [ ] Disclaimers about device destruction
 - [ ] Use cases and target audience
 
 **Example Opening:**
 ```
-Capture your most extreme moments with real-time sensor data overlays. 
-Ill Advised records from multiple cameras while displaying GPS, speed, 
-altitude, orientation, and more—perfect for extreme sports enthusiasts.
+Is your iPhone on its last legs? Send it out in a blaze of glory!
+
+Ill Advised captures your phone's final moments with cinematic flair—recording 
+from both cameras while overlaying real-time telemetry as you throw it off a 
+cliff, run it over with a truck, launch it into space, or whatever creative 
+destruction you devise. Perfect for creating viral content from old phones 
+you're ready to retire.
 
 KEY FEATURES:
-• Dual-camera recording (front and rear)
-• Live sensor data overlay (GPS, altitude, speed, acceleration)
-• Direct streaming to social media platforms
-• High-quality video recording
-• Real-time compass and orientation display
-• Barometric pressure and altitude tracking
-• Step counter integration
+• Dual-camera recording (capture destruction from both angles)
+• Live sensor data overlay (GPS coordinates, altitude, speed, g-forces)
+• Direct streaming to social media platforms (preserve the footage!)
+• Real-time telemetry: orientation, rotation, acceleration, compass
+• Barometric pressure and altitude tracking (how far did it fall?)
+• High-quality H.264 video encoding
+• Records until the very end... or until impact
+
+PERFECT FOR:
+• Creating epic destruction videos
+• Documenting old phone disposal
+• Viral social media content
+• Testing extreme durability
+• Saying goodbye to that cracked screen
+
+DISCLAIMER: Intended for phones you plan to destroy anyway. Back up your 
+data first. Dispose of e-waste responsibly. Don't throw phones at people.
 
 ...
 ```
@@ -138,9 +152,9 @@ KEY FEATURES:
 
 **Suggested keywords:**
 ```
-extreme sports,action camera,gopro,sensor data,gps tracking,
-speed recorder,altitude meter,sports recording,live streaming,
-stunt recording,adrenaline,adventure sports
+phone destruction,viral video,telemetry,sensor data,crash test,
+destruction video,impact recorder,falling phone,phone drop test,
+stunt recording,epic fail,demolition,device testing
 ```
 
 #### Promotional Text (Optional)

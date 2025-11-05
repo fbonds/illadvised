@@ -1,10 +1,12 @@
-# Ill Advised - iOS Extreme Sports Recording App
+# Ill Advised - Record Your Phone's Glorious Demise
 
-An iOS application that enables users to record and stream their extreme stunts with real-time sensor data overlays.
+Is your iPhone on its last legs? Send it out in a blaze of glory. Use Ill Advised to document its final moments while you: throw it off a cliff, toss it in a wood chipper, launch it into space, run it over with a truck, or whatever your dark heart desires.
+
+This iOS app captures every moment of your phone's destruction from multiple cameras while overlaying all sensor data - GPS coordinates, altitude, speed, g-forces, orientation, and more - as your device meets its spectacular end.
 
 ## Features
 
-- **Dual Camera Recording**: Record from front and rear cameras (simultaneously on supported devices)
+- **Dual Camera Recording**: Capture the destruction from both front and rear cameras (simultaneously on supported devices)
 - **Real-Time Sensor Data Overlay**:
   - GPS coordinates (latitude/longitude)
   - Altitude (GPS and barometric)
@@ -15,8 +17,8 @@ An iOS application that enables users to record and stream their extreme stunts 
   - Rotation rate (3-axis)
   - Ambient pressure
   - Step counter
-- **Social Media Streaming**: Stream directly to Facebook, Instagram, YouTube, TikTok, Twitch, and Twitter
-- **Local Recording**: Save videos to device for later sharing
+- **Social Media Streaming**: Stream your phone's destruction live to Facebook, Instagram, YouTube, TikTok, Twitch, and Twitter
+- **Local Recording**: Save videos to device storage (until it gets destroyed, then hope you were streaming!)
 
 ## Requirements
 
@@ -127,31 +129,44 @@ You must provide a privacy policy URL that explains:
 - How sensor data is collected
 - How camera/microphone access is used
 - How social media credentials are stored
-- That the app is intended for extreme sports recording
+- That the app is intended for documenting phone destruction (novelty/entertainment purposes)
 
 ### 2. App Store Connect Configuration
-- Select category: Sports or Entertainment
-- Age rating: 17+ (due to potential dangerous activities)
-- Add screenshots showing the app in use
-- Provide a demo video
-- Write clear app description warning about safety
+- Select category: Entertainment or Photo & Video
+- Age rating: 12+ (novelty app, comedic destruction)
+- Add screenshots showing the app interface (on a working phone)
+- Provide a demo video showing the overlay in action
+- Write clear app description explaining the comedic/novelty intent
 
 ### 3. App Review Notes
 Include the following in your App Review Information:
 ```
-This app is designed for recording extreme sports activities with sensor data overlays.
-Users are responsible for their own safety when using this app.
-The app requires camera, microphone, location, and motion sensor access to function.
-Social media streaming requires user authentication with their own accounts.
+This is a novelty/entertainment app designed to record a phone's final moments 
+as it is intentionally destroyed by the user. It captures sensor data during 
+activities like throwing, dropping, or otherwise destroying old/broken phones.
+
+The app requires camera, microphone, location, and motion sensor access to 
+record all data during the phone's "final journey."
+
+Intended for users disposing of old phones who want to create entertaining 
+content. Social media streaming allows users to share the destruction live.
 ```
 
-### 4. Safety Warning
-Consider adding an in-app safety disclaimer on first launch:
+### 4. Disclaimer
+Add an in-app disclaimer on first launch:
 ```
-WARNING: This app is designed for recording activities that may be dangerous.
-Always prioritize your safety. Never use this app while driving or in situations
-where it could distract you from safety-critical activities. Use protective equipment
-and follow all safety guidelines for your activity.
+DISCLAIMER: This app is intended for entertainment purposes and for users 
+who have decided to dispose of their iPhone.
+
+- Only use with devices you intend to destroy
+- Do not throw phones at people or animals
+- Follow all local e-waste disposal regulations
+- Ensure data is backed up and wiped before destruction
+- Be mindful of environmental impact
+- Stream to social media to preserve the footage!
+
+By using this app, you acknowledge your device will likely be destroyed 
+and the developers are not liable for any damages.
 ```
 
 ## Dependencies
@@ -193,4 +208,4 @@ See LICENSE file for details.
 
 ## Disclaimer
 
-This app is intended for responsible use by experienced individuals. The developers are not liable for any injuries, damages, or losses resulting from the use of this application. Always prioritize safety and follow local laws and regulations.
+This app is a novelty/entertainment application intended for documenting the intentional destruction of old or broken iPhones. The developers are not liable for any damages to devices, property, or injuries resulting from the use of this application. Users are responsible for properly disposing of electronic waste according to local regulations. Do not throw phones at people, animals, or in dangerous situations. Always ensure personal data is backed up and wiped before device destruction.
