@@ -2,7 +2,7 @@ import UIKit
 import Combine
 
 class SettingsViewController: UIViewController {
-    private let authManager = SocialMediaAuthManager()
+    private var authManager: SocialMediaAuthManager?
     private var cancellables = Set<AnyCancellable>()
     
     private let tableView: UITableView = {
@@ -12,7 +12,9 @@ class SettingsViewController: UIViewController {
         return table
     }()
     
-    private let platforms = SocialMediaAuthManager.Platform.allCases
+    private var platforms: [SocialMediaAuthManager.Platform] {
+        return FeatureFlags.enableSocialMediaStreaming ? SocialMediaAuthManager.Platform.allCases : []
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,11 +47,14 @@ class SettingsViewController: UIViewController {
     }
     
     private func setupBindings() {
-        authManager.$authenticatedPlatforms
-            .sink { [weak self] _ in
-                self?.tableView.reloadData()
-            }
-            .store(in: &cancellables)
+        if FeatureFlags.enableSocialMediaStreaming {
+            authManager = SocialMediaAuthManager()
+            authManager?.$authenticatedPlatforms
+                .sink { [weak self] _ in
+                    self?.tableView.reloadData()
+                }
+                .store(in: &cancellables)
+        }
     }
     
     @objc private func doneTapped() {
@@ -57,6 +62,7 @@ class SettingsViewController: UIViewController {
     }
     
     private func authenticatePlatform(_ platform: SocialMediaAuthManager.Platform) {
+        guard let authManager = authManager else { return }
         authManager.authenticate(platform: platform) { [weak self] result in
             switch result {
             case .success:
@@ -68,14 +74,15 @@ class SettingsViewController: UIViewController {
     }
     
     private func disconnectPlatform(_ platform: SocialMediaAuthManager.Platform) {
+        guard let authManager = authManager else { return }
         let alert = UIAlertController(
             title: "Disconnect",
             message: "Are you sure you want to disconnect from \(platform.rawValue)?",
             preferredStyle: .alert
         )
         
-        alert.addAction(UIAlertAction(title: "Disconnect", style: .destructive) { [weak self] _ in
-            self?.authManager.disconnect(platform: platform)
+        alert.addAction(UIAlertAction(title: "Disconnect", style: .destructive) { _ in
+            authManager.disconnect(platform: platform)
         })
         
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
@@ -92,28 +99,28 @@ class SettingsViewController: UIViewController {
 
 extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return FeatureFlags.enableSocialMediaStreaming ? 2 : 1
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
+        if FeatureFlags.enableSocialMediaStreaming && section == 0 {
             return platforms.count
         }
         return 1
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        if section == 0 {
+        if FeatureFlags.enableSocialMediaStreaming && section == 0 {
             return "Connected Platforms"
         }
         return "About"
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.section == 0 {
+        if FeatureFlags.enableSocialMediaStreaming && indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PlatformCell", for: indexPath) as! PlatformCell
             let platform = platforms[indexPath.row]
-            let isConnected = authManager.authenticatedPlatforms[platform] != nil
+            let isConnected = authManager?.authenticatedPlatforms[platform] != nil
             cell.configure(platform: platform.rawValue, isConnected: isConnected)
             return cell
         } else {
@@ -128,10 +135,10 @@ extension SettingsViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        guard indexPath.section == 0 else { return }
+        guard FeatureFlags.enableSocialMediaStreaming && indexPath.section == 0 else { return }
         
         let platform = platforms[indexPath.row]
-        let isConnected = authManager.authenticatedPlatforms[platform] != nil
+        let isConnected = authManager?.authenticatedPlatforms[platform] != nil
         
         if isConnected {
             disconnectPlatform(platform)

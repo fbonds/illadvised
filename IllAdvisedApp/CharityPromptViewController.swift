@@ -102,7 +102,7 @@ class CharityPromptViewController: UIViewController {
                 url: "https://www.everyoneon.org/donate"),
         Charity(name: "PCs for People",
                 description: "Provides refurbished computers and internet to those in need",
-                url: "https://www.pcsforpeople.org/donate/"),
+                url: "https://www.pcsforpeople.org/"),
         Charity(name: "World Computer Exchange",
                 description: "Delivers technology to underserved communities globally",
                 url: "https://worldcomputerexchange.org/donate"),

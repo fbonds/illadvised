@@ -14,9 +14,12 @@ If you use this app, we ask that you **acknowledge this privilege** by making a 
 
 **Digital Equity & Technology Access:**
 - **[EveryoneOn](https://www.everyoneon.org/donate)** - Connecting low-income families to affordable internet and computers
-- **[PCs for People](https://www.pcsforpeople.org/donate/)** - Provides refurbished computers and internet to those in need
+- **[PCs for People](https://www.pcsforpeople.org/)** - Provides refurbished computers and internet to those in need
+  - Donate: https://www.pcsforpeople.org/ (click "Donate" button on their site)
 - **[World Computer Exchange](https://worldcomputerexchange.org/donate)** - Delivers technology to underserved communities globally
 - **[Computers With Causes](https://www.computerswithcauses.org/donate/)** - Gives computers to families, students, and nonprofits
+
+*Note: If any donation link is broken, visit the organization's main website and look for their "Donate" or "Support" page.*
 
 **General Relief & Aid:**
 - **[Direct Relief](https://www.directrelief.org/donate/)** - Emergency and medical assistance worldwide

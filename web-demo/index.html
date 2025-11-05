@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ill Advised - Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Intro Animation Screen -->
+    <div id="introScreen" class="screen active">
+        <div class="intro-content">
+            <div class="falling-phone">
+                <div class="phone-device">
+                    <div class="phone-face">😰</div>
+                </div>
+            </div>
+            <div class="app-title">Ill Advised</div>
+            <div class="app-tagline">Send it out in a blaze of glory</div>
+        </div>
+        <div class="explosion" id="explosion"></div>
+    </div>
+
+    <!-- Charity Prompt Screen (First Launch) -->
+    <div id="charityScreen" class="screen active">
+        <div class="charity-content">
+            <h1>A Note on Privilege</h1>
+            
+            <p class="charity-message">
+                This app exists as a commentary on first-world excess.
+            </p>
+            
+            <p class="charity-message">
+                The ability to intentionally destroy a device that costs hundreds of dollars—a device that many people globally cannot afford and would treasure—is a stark illustration of wealth inequality.
+            </p>
+            
+            <p class="charity-message">
+                This app is free and we don't profit from it. But we ask that you acknowledge this privilege by making a donation to help bridge the digital divide.
+            </p>
+            
+            <p class="charity-emphasis">
+                Consider it the real "price" of the app.
+            </p>
+            
+            <h2>Please Donate To:</h2>
+            
+            <div class="charities-list">
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">EveryoneOn</div>
+                        <div class="charity-desc">Connecting low-income families to affordable internet and computers</div>
+                    </div>
+                    <a href="https://www.everyoneon.org/donate" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">PCs for People</div>
+                        <div class="charity-desc">Provides refurbished computers and internet to those in need</div>
+                    </div>
+                    <a href="https://www.pcsforpeople.org/" target="_blank" class="donate-btn" data-fallback="https://www.pcsforpeople.org/">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">World Computer Exchange</div>
+                        <div class="charity-desc">Delivers technology to underserved communities globally</div>
+                    </div>
+                    <a href="https://worldcomputerexchange.org/donate" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">Computers With Causes</div>
+                        <div class="charity-desc">Gives computers to families, students, and nonprofits</div>
+                    </div>
+                    <a href="https://www.computerswithcauses.org/donate/" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">Direct Relief</div>
+                        <div class="charity-desc">Emergency and medical assistance worldwide</div>
+                    </div>
+                    <a href="https://www.directrelief.org/donate/" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">Doctors Without Borders</div>
+                        <div class="charity-desc">Medical humanitarian aid in crisis zones</div>
+                    </div>
+                    <a href="https://donate.doctorswithoutborders.org/" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">World Central Kitchen</div>
+                        <div class="charity-desc">Food relief in disaster areas</div>
+                    </div>
+                    <a href="https://donate.wck.org/" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+                
+                <div class="charity-item">
+                    <div class="charity-info">
+                        <div class="charity-name">GiveDirectly</div>
+                        <div class="charity-desc">Direct cash transfers to people in poverty</div>
+                    </div>
+                    <a href="https://www.givedirectly.org/donate/" target="_blank" class="donate-btn">Donate →</a>
+                </div>
+            </div>
+            
+            <div class="acknowledge-section">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="acknowledgeCheckbox">
+                    <span class="checkbox-text">I acknowledge my privilege and commit to making a donation</span>
+                </label>
+            </div>
+            
+            <button id="continueBtn" class="continue-btn" disabled>I Understand</button>
+        </div>
+    </div>
+
+    <!-- Main Recording Screen -->
+    <div id="mainScreen" class="screen">
+        <div class="camera-preview">
+            <!-- Top Third: Back Camera -->
+            <div class="back-camera">
+                <video id="backCameraFeed" autoplay playsinline></video>
+            </div>
+            
+            <!-- Middle Third: Sensor Data + App Name -->
+            <div class="sensor-section">
+                <div class="sensor-data">
+                    <div class="sensor-item">GPS: <span id="gps">37.7749°, -122.4194°</span></div>
+                    <div class="sensor-item">ALT: <span id="altitude">142.3m (GPS) | 0.0m (Rel)</span></div>
+                    <div class="sensor-item">SPEED: <span id="speed">0.0 MPH</span></div>
+                    <div class="sensor-item">HEADING: <span id="heading">0.0° N</span></div>
+                    <div class="sensor-item">ORIENT: <span id="orientation">R:0.0° P:0.0° Y:0.0°</span></div>
+                    <div class="sensor-item">ACCEL: <span id="accel">X:0.00 Y:0.00 Z:0.00 g</span></div>
+                    <div class="sensor-item">ROTATION: <span id="rotation">X:0.0 Y:0.0 Z:0.0 °/s</span></div>
+                    <div class="sensor-item">PRESSURE: <span id="pressure">101.32 kPa</span></div>
+                    <div class="sensor-item">STEPS: <span id="steps">0</span></div>
+                </div>
+                
+                <!-- App Name Warning -->
+                <div class="app-name-warning" id="appNameWarning">ill Advised</div>
+            </div>
+            
+            <!-- Bottom Third: Front Camera -->
+            <div class="front-camera">
+                <video id="frontCameraFeed" autoplay playsinline></video>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <div class="controls">
+            <button id="settingsBtn" class="control-btn icon-btn">⚙️</button>
+            <button id="recordBtn" class="record-btn"></button>
+            <button id="switchCameraBtn" class="control-btn icon-btn">🔄</button>
+        </div>
+    </div>
+
+    <!-- Settings Screen -->
+    <div id="settingsScreen" class="screen">
+        <div class="settings-content">
+            <div class="settings-header">
+                <button id="closeSettings" class="close-btn">✕</button>
+                <h2>Settings</h2>
+            </div>
+            
+            <div class="settings-section">
+                <h3>Connected Platforms</h3>
+                <div class="platform-list">
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">Facebook</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">Instagram</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">YouTube</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">TikTok</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">Twitch</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                    <div class="platform-item">
+                        <div class="platform-info">
+                            <div class="platform-name">Twitter</div>
+                            <div class="platform-status disconnected">Not Connected</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="settings-section">
+                <h3>About</h3>
+                <div class="about-info">
+                    <div>Ill Advised</div>
+                    <div class="about-version">Version 1.0</div>
+                    <div class="about-note">
+                        This app is free with no monetization.<br>
+                        Please donate to digital equity charities.
+                    </div>
+                </div>
+            </div>
+            
+            <button id="resetCharityPrompt" class="reset-btn">Reset Charity Prompt (for testing)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
