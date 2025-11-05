@@ -21,7 +21,6 @@
 		BC98CF3657684A1CB664C882 /* SocialMediaAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C883 /* SocialMediaAuthManager.swift */; };
 		BC98CF3657684A1CB664C884 /* SensorOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C885 /* SensorOverlayView.swift */; };
 		BC98CF3657684A1CB664C886 /* FeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C887 /* FeatureFlags.swift */; };
-		BC98CF3657684A1CB664C888 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C889 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,7 +149,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC98CF3657684A1CB664C888 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
