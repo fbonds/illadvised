@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC98CF3657684A1CB664C860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C861 /* AppDelegate.swift */; };
+		BC98CF3657684A1CB664C862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C863 /* SceneDelegate.swift */; };
+		BC98CF3657684A1CB664C864 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C865 /* MainViewController.swift */; };
+		BC98CF3657684A1CB664C866 /* IntroAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */; };
+		BC98CF3657684A1CB664C868 /* CharityPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C869 /* CharityPromptViewController.swift */; };
+		BC98CF3657684A1CB664C870 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C871 /* SettingsViewController.swift */; };
+		BC98CF3657684A1CB664C872 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C873 /* CameraManager.swift */; };
+		BC98CF3657684A1CB664C874 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C875 /* LocationManager.swift */; };
+		BC98CF3657684A1CB664C876 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C877 /* MotionManager.swift */; };
+		BC98CF3657684A1CB664C878 /* VideoRecordingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C879 /* VideoRecordingManager.swift */; };
+		BC98CF3657684A1CB664C880 /* StreamingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C881 /* StreamingManager.swift */; };
+		BC98CF3657684A1CB664C882 /* SocialMediaAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C883 /* SocialMediaAuthManager.swift */; };
+		BC98CF3657684A1CB664C884 /* SensorOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C885 /* SensorOverlayView.swift */; };
+		BC98CF3657684A1CB664C886 /* FeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C887 /* FeatureFlags.swift */; };
+		BC98CF3657684A1CB664C888 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C889 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC98CF3657684A1CB664C890 /* IllAdvised.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IllAdvised.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC98CF3657684A1CB664C861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C865 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroAnimationViewController.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C869 /* CharityPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityPromptViewController.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C871 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C873 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C875 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C877 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C879 /* VideoRecordingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecordingManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C881 /* StreamingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C883 /* SocialMediaAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaAuthManager.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C885 /* SensorOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorOverlayView.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C887 /* FeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlags.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC98CF3657684A1CB664C891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC98CF3657684A1CB664C892 = {
+			isa = PBXGroup;
+			children = (
+				BC98CF3657684A1CB664C893 /* IllAdvisedApp */,
+				BC98CF3657684A1CB664C894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC98CF3657684A1CB664C893 /* IllAdvisedApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC98CF3657684A1CB664C889 /* Info.plist */,
+				BC98CF3657684A1CB664C887 /* FeatureFlags.swift */,
+				BC98CF3657684A1CB664C861 /* AppDelegate.swift */,
+				BC98CF3657684A1CB664C863 /* SceneDelegate.swift */,
+				BC98CF3657684A1CB664C865 /* MainViewController.swift */,
+				BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */,
+				BC98CF3657684A1CB664C869 /* CharityPromptViewController.swift */,
+				BC98CF3657684A1CB664C871 /* SettingsViewController.swift */,
+				BC98CF3657684A1CB664C873 /* CameraManager.swift */,
+				BC98CF3657684A1CB664C875 /* LocationManager.swift */,
+				BC98CF3657684A1CB664C877 /* MotionManager.swift */,
+				BC98CF3657684A1CB664C879 /* VideoRecordingManager.swift */,
+				BC98CF3657684A1CB664C881 /* StreamingManager.swift */,
+				BC98CF3657684A1CB664C883 /* SocialMediaAuthManager.swift */,
+				BC98CF3657684A1CB664C885 /* SensorOverlayView.swift */,
+			);
+			path = IllAdvisedApp;
+			sourceTree = "<group>";
+		};
+		BC98CF3657684A1CB664C894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC98CF3657684A1CB664C890 /* IllAdvised.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC98CF3657684A1CB664C895 /* IllAdvised */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC98CF3657684A1CB664C896 /* Build configuration list for PBXNativeTarget "IllAdvised" */;
+			buildPhases = (
+				BC98CF3657684A1CB664C897 /* Sources */,
+				BC98CF3657684A1CB664C891 /* Frameworks */,
+				BC98CF3657684A1CB664C898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IllAdvised;
+			productName = IllAdvised;
+			productReference = BC98CF3657684A1CB664C890 /* IllAdvised.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC98CF3657684A1CB664C899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BC98CF3657684A1CB664C895 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BC98CF3657684A1CB664C900 /* Build configuration list for PBXProject "IllAdvised" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC98CF3657684A1CB664C892;
+			productRefGroup = BC98CF3657684A1CB664C894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC98CF3657684A1CB664C895 /* IllAdvised */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC98CF3657684A1CB664C898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC98CF3657684A1CB664C888 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC98CF3657684A1CB664C897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC98CF3657684A1CB664C886 /* FeatureFlags.swift in Sources */,
+				BC98CF3657684A1CB664C864 /* MainViewController.swift in Sources */,
+				BC98CF3657684A1CB664C866 /* IntroAnimationViewController.swift in Sources */,
+				BC98CF3657684A1CB664C868 /* CharityPromptViewController.swift in Sources */,
+				BC98CF3657684A1CB664C870 /* SettingsViewController.swift in Sources */,
+				BC98CF3657684A1CB664C872 /* CameraManager.swift in Sources */,
+				BC98CF3657684A1CB664C874 /* LocationManager.swift in Sources */,
+				BC98CF3657684A1CB664C876 /* MotionManager.swift in Sources */,
+				BC98CF3657684A1CB664C878 /* VideoRecordingManager.swift in Sources */,
+				BC98CF3657684A1CB664C880 /* StreamingManager.swift in Sources */,
+				BC98CF3657684A1CB664C882 /* SocialMediaAuthManager.swift in Sources */,
+				BC98CF3657684A1CB664C884 /* SensorOverlayView.swift in Sources */,
+				BC98CF3657684A1CB664C856 /* AppDelegate.swift in Sources */,
+				BC98CF3657684A1CB664C862 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC98CF3657684A1CB664C901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC98CF3657684A1CB664C902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC98CF3657684A1CB664C903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IllAdvisedApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ill Advised needs camera access to record your device's final moments.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ill Advised needs location access to record where your device met its fate.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ill Advised needs microphone access to capture audio of your device's destruction.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Ill Advised needs motion sensor access to track your device's trajectory and impact.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illadvised.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC98CF3657684A1CB664C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IllAdvisedApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ill Advised needs camera access to record your device's final moments.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ill Advised needs location access to record where your device met its fate.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Ill Advised needs microphone access to capture audio of your device's destruction.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Ill Advised needs motion sensor access to track your device's trajectory and impact.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illadvised.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC98CF3657684A1CB664C900 /* Build configuration list for PBXProject "IllAdvised" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC98CF3657684A1CB664C901 /* Debug */,
+				BC98CF3657684A1CB664C902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC98CF3657684A1CB664C896 /* Build configuration list for PBXNativeTarget "IllAdvised" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC98CF3657684A1CB664C903 /* Debug */,
+				BC98CF3657684A1CB664C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC98CF3657684A1CB664C899 /* Project object */;
+}
