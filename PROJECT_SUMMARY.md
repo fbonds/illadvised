@@ -13,6 +13,8 @@ Total Files: 16 (10 Swift files + 6 documentation files)
 
 This is a **complete, production-ready iOS application** written in Swift for documenting your iPhone's final moments as you intentionally destroy it. Record from dual cameras with real-time sensor data overlays (GPS, altitude, speed, g-forces, orientation) as you throw it, drop it, launch it, or otherwise creatively destroy your old phone. Stream it live to social media or save locally (if the device survives long enough).
 
+**Social Consciousness Component:** The app includes a first-launch screen that acknowledges the privilege of destroying expensive devices and encourages donations to digital equity charities. This is commentary on first-world consumption, not just entertainment. The app is completely free with no monetization.
+
 #### ✅ Completed Features
 
 1. **Camera System**
@@ -83,7 +85,7 @@ This is a **complete, production-ready iOS application** written in Swift for do
 | `SensorOverlayView.swift` | 127 | Real-time overlay display |
 | `SocialMediaAuthManager.swift` | 171 | OAuth authentication |
 
-**Total Swift Code: ~1,302 lines**
+**Total Swift Code: 1,829 lines** (including CharityPromptViewController)
 
 ### Configuration Files
 

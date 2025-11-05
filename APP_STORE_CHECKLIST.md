@@ -123,6 +123,11 @@ cliff, run it over with a truck, launch it into space, or whatever creative
 destruction you devise. Perfect for creating viral content from old phones 
 you're ready to retire.
 
+⚠️ SOCIAL CONSCIOUSNESS: This app is commentary on first-world excess. We don't 
+profit from it. On first launch, users are encouraged to donate to charities 
+bridging the digital divide. The app is free—but the suggested "price" is a 
+donation to those who lack access to technology.
+
 KEY FEATURES:
 • Dual-camera recording (capture destruction from both angles)
 • Live sensor data overlay (GPS coordinates, altitude, speed, g-forces)
@@ -257,10 +262,13 @@ Users authenticate with their own social media accounts.
 Streaming requires valid platform credentials.
 Test accounts: [provide if available]
 
-SAFETY DISCLAIMER:
-App includes safety warnings on first launch.
-Intended for experienced extreme sports enthusiasts.
-Not for use while driving.
+SOCIAL CONSCIOUSNESS COMPONENT:
+On first launch, users see a screen acknowledging the privilege of being able 
+to destroy a device many globally cannot afford. The app encourages (but does 
+not require) donations to charities providing technology access to underserved 
+communities. This is commentary on consumption and first-world excess.
+
+The app is completely free with no monetization. We don't profit from it.
 
 DEMONSTRATION:
 Record a short video in a safe environment to test all features.

@@ -4,6 +4,28 @@ Is your iPhone on its last legs? Send it out in a blaze of glory. Use Ill Advise
 
 This iOS app captures every moment of your phone's destruction from multiple cameras while overlaying all sensor data - GPS coordinates, altitude, speed, g-forces, orientation, and more - as your device meets its spectacular end.
 
+## ⚠️ A Note on Privilege and Responsibility
+
+**This app exists as a commentary on first-world excess.** The ability to intentionally destroy a device that costs hundreds of dollars—a device that many people globally cannot afford and would treasure—is a stark illustration of wealth inequality.
+
+If you use this app, we ask that you **acknowledge this privilege** by making a donation to organizations working to bridge the digital divide and provide technology access to those in need. Consider it the "price" of the app.
+
+### Recommended Charities (Please Donate)
+
+**Digital Equity & Technology Access:**
+- **[EveryoneOn](https://www.everyoneon.org/donate)** - Connecting low-income families to affordable internet and computers
+- **[PCs for People](https://www.pcsforpeople.org/donate/)** - Provides refurbished computers and internet to those in need
+- **[World Computer Exchange](https://worldcomputerexchange.org/donate)** - Delivers technology to underserved communities globally
+- **[Computers With Causes](https://www.computerswithcauses.org/donate/)** - Gives computers to families, students, and nonprofits
+
+**General Relief & Aid:**
+- **[Direct Relief](https://www.directrelief.org/donate/)** - Emergency and medical assistance worldwide
+- **[Doctors Without Borders](https://donate.doctorswithoutborders.org/)** - Medical humanitarian aid in crisis zones
+- **[World Central Kitchen](https://donate.wck.org/)** - Food relief in disaster areas
+- **[GiveDirectly](https://www.givedirectly.org/donate/)** - Direct cash transfers to people in poverty
+
+**Choose an amount meaningful to you—ideally what you would have paid for this app ($5-20).** Better yet, consider the value of the phone you're destroying and donate a portion of that.
+
 ## Features
 
 - **Dual Camera Recording**: Capture the destruction from both front and rear cameras (simultaneously on supported devices)
@@ -209,3 +231,11 @@ See LICENSE file for details.
 ## Disclaimer
 
 This app is a novelty/entertainment application intended for documenting the intentional destruction of old or broken iPhones. The developers are not liable for any damages to devices, property, or injuries resulting from the use of this application. Users are responsible for properly disposing of electronic waste according to local regulations. Do not throw phones at people, animals, or in dangerous situations. Always ensure personal data is backed up and wiped before device destruction.
+
+## On Consumption and Privilege
+
+The existence of an app for destroying phones is absurd in a world where billions lack access to technology. We don't profit from this app, and we strongly encourage users to reflect on the privilege of being able to destroy a valuable device "for fun." 
+
+**Before using this app, please donate to one of the charities listed above.** Make the destruction meaningful by ensuring it contributes to getting technology into the hands of those who need it.
+
+This app is free. Your donation is the real price of admission.

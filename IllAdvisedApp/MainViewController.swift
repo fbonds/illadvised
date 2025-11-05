@@ -68,7 +68,21 @@ class MainViewController: UIViewController {
         
         setupUI()
         setupBindings()
-        requestPermissions()
+        
+        if !UserDefaults.standard.bool(forKey: "HasSeenCharityPrompt") {
+            showCharityPrompt()
+        } else {
+            requestPermissions()
+        }
+    }
+    
+    private func showCharityPrompt() {
+        let charityVC = CharityPromptViewController()
+        charityVC.modalPresentationStyle = .fullScreen
+        charityVC.onContinue = { [weak self] in
+            self?.requestPermissions()
+        }
+        present(charityVC, animated: true)
     }
     
     private func setupUI() {

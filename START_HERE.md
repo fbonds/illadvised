@@ -6,6 +6,8 @@ You now have a **complete, production-ready iOS application** for documenting yo
 
 **The Concept:** Record your phone's final moments as you destroy it (throw it off a cliff, run it over, launch it, etc.) while capturing all sensor data - GPS, altitude, speed, g-forces, and more. Stream it live to social media or save locally (if the phone survives long enough).
 
+**⚠️ Important:** This app exists as commentary on first-world excess. Before using it, please make a donation to one of the recommended charities in the README. The app is free; your donation is the real price of admission.
+
 ---
 
 ## 📦 What You Got
@@ -119,10 +121,10 @@ Everything you need to know:
 ## 🎨 Project Statistics
 
 ```
-📁 Total Files: 17
-   └─ 10 Swift files (1,538 lines)
+📁 Total Files: 20
+   └─ 12 Swift files (1,829 lines)
    └─ 1 Config file (Info.plist)
-   └─ 6 Documentation files (4,000+ lines)
+   └─ 7 Documentation files (6,000+ lines)
 
 💻 Code Coverage:
    ✅ Camera: 100%
@@ -130,6 +132,7 @@ Everything you need to know:
    ✅ Recording: 100%
    ✅ UI: 100%
    ✅ Social Auth: 100%
+   ✅ Charity Prompt: 100%
    ⚠️ RTMP Streaming: Framework only (needs library)
 
 📱 iOS Support:
