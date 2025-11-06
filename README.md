@@ -29,6 +29,28 @@ If you use this app, we ask that you **acknowledge this privilege** by making a 
 
 **Choose an amount meaningful to you—ideally what you would have paid for this app ($5-20).** Better yet, consider the value of the phone you're destroying and donate a portion of that.
 
+## Marketing Materials
+
+### App Preview Video
+
+Watch the Ill Advised app in action:
+
+https://github.com/fbonds/illadvised/raw/main/marketing/Ill_Advised_App_Video_Generation.mp4
+
+**[⬇️ Download Video](marketing/Ill_Advised_App_Video_Generation.mp4)** (6.4 MB)
+
+*Note: If the video doesn't play inline on GitHub, click the download link above or view it locally in the `marketing/` folder.*
+
+This promotional video showcases:
+- The app's dual-camera interface
+- Real-time sensor data overlay
+- The charity prompt and social consciousness messaging
+- The app's dark humor and commentary on consumer excess
+
+**For App Store submission:** Use this video (or clips from it) as your app preview video. Apple requires app previews to be 15-30 seconds for most placements.
+
+---
+
 ## Features
 
 - **Dual Camera Recording**: Capture the destruction from both front and rear cameras (simultaneously on supported devices)

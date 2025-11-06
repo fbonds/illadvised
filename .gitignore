@@ -56,7 +56,10 @@ Config.swift
 # Thumbnails
 ._*
 
-# Videos
+# Videos (except marketing materials)
 *.mov
 *.mp4
 *.avi
+# Allow marketing materials
+!marketing/*.mp4
+!marketing/*.mov
