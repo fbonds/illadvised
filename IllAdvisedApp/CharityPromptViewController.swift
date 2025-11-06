@@ -132,6 +132,11 @@ class CharityPromptViewController: UIViewController {
         setupCharityButtons()
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        scrollView.contentSize = contentView.bounds.size
+    }
+    
     private func setupUI() {
         view.addSubview(scrollView)
         scrollView.addSubview(contentView)
