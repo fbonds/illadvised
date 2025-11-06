@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC98CF3657684A1CB664C860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C861 /* AppDelegate.swift */; };
+		BC98CF3657684A1CB664C859 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C858 /* main.swift */; };
 		BC98CF3657684A1CB664C862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C863 /* SceneDelegate.swift */; };
 		BC98CF3657684A1CB664C864 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C865 /* MainViewController.swift */; };
 		BC98CF3657684A1CB664C866 /* IntroAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */; };
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		BC98CF3657684A1CB664C890 /* IllAdvised.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IllAdvised.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC98CF3657684A1CB664C861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC98CF3657684A1CB664C858 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC98CF3657684A1CB664C863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC98CF3657684A1CB664C865 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroAnimationViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			children = (
 				BC98CF3657684A1CB664C889 /* Info.plist */,
 				BC98CF3657684A1CB664C887 /* FeatureFlags.swift */,
-				BC98CF3657684A1CB664C861 /* AppDelegate.swift */,
+				BC98CF3657684A1CB664C858 /* main.swift */,
 				BC98CF3657684A1CB664C863 /* SceneDelegate.swift */,
 				BC98CF3657684A1CB664C865 /* MainViewController.swift */,
 				BC98CF3657684A1CB664C867 /* IntroAnimationViewController.swift */,
@@ -159,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC98CF3657684A1CB664C859 /* main.swift in Sources */,
 				BC98CF3657684A1CB664C886 /* FeatureFlags.swift in Sources */,
 				BC98CF3657684A1CB664C864 /* MainViewController.swift in Sources */,
 				BC98CF3657684A1CB664C866 /* IntroAnimationViewController.swift in Sources */,
@@ -171,7 +172,6 @@
 				BC98CF3657684A1CB664C880 /* StreamingManager.swift in Sources */,
 				BC98CF3657684A1CB664C882 /* SocialMediaAuthManager.swift in Sources */,
 				BC98CF3657684A1CB664C884 /* SensorOverlayView.swift in Sources */,
-				BC98CF3657684A1CB664C856 /* AppDelegate.swift in Sources */,
 				BC98CF3657684A1CB664C862 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +214,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -334,6 +335,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -375,6 +377,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
